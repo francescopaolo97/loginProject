@@ -1,0 +1,76 @@
+* {
+  cursor: url("http://www.rw-designer.com/cursor-view/207066.png"), auto;
+}
+
+.conteiner {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(45deg, blue, red);
+  display: flex;
+  /* align-content: center; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(45deg, blue, red);
+  box-shadow: 10px 10px 70px 10px black;
+  color: white;
+  width: 25%;
+  border-radius: 10%;
+  padding: 25px;
+}
+.img-profile {
+  width: 100px;
+  height: 100px;
+  background: url(https://previews.123rf.com/images/photoplotnikov/photoplotnikov1703/photoplotnikov170300032/74051448-icona-immagine-profilo-avatar-maschio-predefinita-segnaposto-foto-uomo-grigio-illustrazione.jpg);
+  background-size: cover;
+  border-radius: 50px;
+}
+.div-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  margin: 15% auto;
+}
+.conteiner-form {
+  height: 60vh;
+  width: 100%;
+}
+.input {
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  outline: none;
+  height: 5vh;
+  border-radius: 10px;
+  background-color: transparent;
+  border: solid 1px grey;
+}
+.btn {
+  width: 60%;
+  margin: 10% auto;
+  height: 6vh;
+  border-radius: 50px;
+  background: linear-gradient(45deg, blue, black, transparent);
+  color: white;
+  font-size: 15px;
+  border: none;
+}
+
+.btn:active {
+  opacity: 0.7;
+  transform: scale(0.9);
+}
+.btn:disabled {
+  opacity: 0.3;
+  transform: scale(1);
+}
+// .text::placeholder {
+//   font-size: 15px;
+// }
